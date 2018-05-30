@@ -84,7 +84,16 @@ pages:
                    - toc: 'os/tutorials/sensors/sensor_oic_overview.md'
                    - Enable OIC Sensor Support in the sensors_test Application: 'os/tutorials/sensors/sensor_nrf52_bno055_oic.md'
                    - Add OIC Sensor Support to the bleprph_oic Application: 'os/tutorials/sensors/sensor_bleprph_oic.md'
-               - 'DW1000 Description': 'os/tutorials/sensors/dw1000.md'
+               - 'DW1000': 
+                   - 'DW1000 Description':  'os/tutorials/sensors/DW1000/dw1000.md'
+                   - 'Provision': 'os/tutorials/sensors/DW1000/provision_README.md'
+                   - 'Range': 'os/tutorials/sensors/DW1000/range_README.md'
+                   - 'Mac_filtering': 'os/tutorials/sensors/DW1000/mac_filtering_README.md'
+                   - 'nranges': 'os/tutorials/sensors/DW1000/nranges_README.md'
+                   - 'Time': 'os/tutorials/sensors/DW1000/time_README.md'
+                   - 'Lwip':
+                      - 'lwip_p2p_node0': 'os/tutorials/sensors/DW1000/lwip_p2p_node0_README.md'
+                      - 'lwip_p2p_node': 'os/tutorials/sensors/DW1000/lwip_p2p_node_README.md' 
             - 'Air-quality Sensor project':
                 - 'Basic Air Quality Sensor': 'os/tutorials/air_quality_sensor.md'
                 - 'BLE-enabled Air Quality Sensor': 'os/tutorials/air_quality_ble.md'
